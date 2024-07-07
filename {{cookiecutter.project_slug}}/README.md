@@ -1,3 +1,4 @@
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ cookiecutter.project_name }})
 ![CI](https://github.com/{{ cookiecutter.project_git_repository }}/actions/workflows/ci.yml/badge.svg)
 ![Codecov](https://img.shields.io/codecov/c/github/{{ cookiecutter.project_git_repository }})
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project={{ cookiecutter.sonarcloud }}&metric=security_rating)](https://sonarcloud.io/summary/new_code?id={{ cookiecutter.sonarcloud }})
@@ -10,8 +11,8 @@ A brief description of what {{ cookiecutter.project_name }} does.
 
 # Installation
 
-## Install Python 3.11 or 3.12
-If you haven’t installed Python 3.11 or 3.12 yet, you can download it from the [official Python website](https://www.python.org/downloads/).
+## Install Python 3.12
+If you haven’t installed Python 3.12 yet, you can download it from the [official Python website](https://www.python.org/downloads/).
 
 ## Install Poetry
 If you haven’t installed Poetry yet, you can do so by following the [official Poetry installation guide](https://python-poetry.org/docs/#installation).
