@@ -42,8 +42,8 @@ cruft create https://github.com/FabienMeyer/e-lims-cruft.git
 
 # Installation
 
-## Install Python 3.11 or 3.12
-If you haven’t installed Python 3.11 or 3.12 yet, you can download it from the [official Python website](https://www.python.org/downloads/).
+## Install Python 3.12
+If you haven’t installed Python 3.12 yet, you can download it from the [official Python website](https://www.python.org/downloads/).
 
 ## Install Poetry
 If you haven’t installed Poetry yet, you can do so by following the [official Poetry installation guide](https://python-poetry.org/docs/#installation).
