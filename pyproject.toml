@@ -1,11 +1,11 @@
 [tool.poetry]
-name = 'e_lims_cookiecutter'
-version = "0.1.0"
+name = 'e-lims-cruft'
+version = "0.0.1"
 description = 'E-lims Cookiecutter.'
 readme = 'README.md'
 authors = ['Fabien Meyer <fabien-meyer@outlook.com>']
 license = 'MIT'
-include = ['e_lims_cookiecutter/py.typed']
+include = ['e-lims-cruft/py.typed']
 
 [tool.poetry.dependencies]
 python = '^3.12'
@@ -42,7 +42,7 @@ pytest = '^8.2.2'
 pytest-cov = '^5.0.0'
 pytest-cookies = '^0.7.0'
 python-semantic-release = '^9.8.3'
-ruff = '^0.4.8'
+ruff = '^0.5.1'
 
 [tool.mypy]
 follow_imports = 'normal'
@@ -89,10 +89,17 @@ indent-style = 'space'
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-tag_format = "v$version"
+version = "0.0.1"
 version_scheme = "semver2"
 version_provider = "poetry"
+version_files = [
+    "e_lims_core/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+bump_message = "bump: version $current_version → $new_version"
 update_changelog_on_bump = true
+tag_format = "v$version"
+annotated_tag = true
 major_version_zero = true
 
 [build-system]

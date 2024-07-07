@@ -114,6 +114,7 @@ jobs:
       
   deploy-documentation:
     name: Deploy documentation
+    if: ${{ ! startsWith(github.ref, 'refs/tags/') }}
     needs: [tests, code-quality, documentation]
     environment:
       name: github-pages
