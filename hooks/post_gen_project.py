@@ -1,0 +1,1 @@
+"""Pre-generation hooks tests."""
