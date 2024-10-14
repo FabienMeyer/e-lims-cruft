@@ -20,7 +20,7 @@ pymdown-extensions = "^10.8.1"
 cookiecutter = '^2.6.0'
 commitizen = "^3.27.0"
 cruft = '^2.15.0'
-pre-commit = '^3.7.1'
+pre-commit = '^4.0.1'
 tox = '^4.15.1'
 
 [tool.poetry.group.doc]
