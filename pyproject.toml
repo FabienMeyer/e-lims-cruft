@@ -42,7 +42,7 @@ pytest = '^8.2.2'
 pytest-cov = '^5.0.0'
 pytest-cookies = '^0.7.0'
 python-semantic-release = '^9.8.3'
-ruff = '^0.5.1'
+ruff = '^0.7.1'
 
 [tool.mypy]
 follow_imports = 'normal'
