@@ -39,7 +39,7 @@ optional = true
 [tool.poetry.group.tests.dependencies]
 mypy = '^1.10.0'
 pytest = '^8.2.2'
-pytest-cov = '^5.0.0'
+pytest-cov = '^6.0.0'
 pytest-cookies = '^0.7.0'
 python-semantic-release = '^9.8.3'
 ruff = '^0.5.1'
